@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c865dafc24bcc96bd591361222bf0be18561446eb6179e250ae408c6c503e63f.html">As A User I Want To Go To The Mattelsa Page</a></span>
+                > <span class="truncate-60"><a
+                    href="5743d159c53e38508deb10b61446748fbb8f28da0b0de9090ff6b7f5701efe20.html">As user I'm going to go to the Mattelsa page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-04-2021 08:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A User I Want To Go To The Mattelsa Page</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                and add a product in the cart.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">As user I'm going to go to the Mattelsa page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given As a user I will enter one of the &lt;categories&gt; that appear on the page<br>When And I will select the cheapest clothes by selecting the &lt;quantity&gt; and &lt;size&gt;<br>Then Validate the total price of the product</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2ac9fa91015d50945adc97661a186bcd1f702cd859d6bf014c657b68d7e1716b.png" title="Example #1: {categories=Hombre, quantity=1, size=26}" width="1920"/>
+                <img src="69ef5494a211c7819bfd573201f0002eeb1fb2440d6d715c4a8345511cffe9fa.png" title="Given As a user I will enter one of the Hombre that appear on the page" width="1920"/>
+                <img src="c08a28e211e1c53d9cfc0eb63784a02dc83a0729105ccefbbc7867d387af877a.png" title="Valentina clicks on Click in the categories" width="1920"/>
+                <img src="69ef5494a211c7819bfd573201f0002eeb1fb2440d6d715c4a8345511cffe9fa.png" title="Valentina clicks on Click in the categories" width="1920"/>
+                <img src="69ef5494a211c7819bfd573201f0002eeb1fb2440d6d715c4a8345511cffe9fa.png" title="When And I will select the cheapest clothes by selecting the 1 and 26" width="1920"/>
+                <img src="2ac9fa91015d50945adc97661a186bcd1f702cd859d6bf014c657b68d7e1716b.png" title="When And I will select the cheapest clothes by selecting the 1 and 26" width="1920"/>
+                <img src="69ef5494a211c7819bfd573201f0002eeb1fb2440d6d715c4a8345511cffe9fa.png" title="Valentina clicks on #target" width="1920"/>
+                <img src="7a7ed6b1a32d7f5d1ea0c7c28176cdfa93cab2759c15f613e9b3f7151e6bbe8a.png" title="Valentina clicks on #target" width="1920"/>
+                <img src="7a7ed6b1a32d7f5d1ea0c7c28176cdfa93cab2759c15f613e9b3f7151e6bbe8a.png" title="Valentina enters '1' into Enter the amount" width="1920"/>
+                <img src="faae292acbfc76749e5e7d978cf2c95c63e997e3333bc416b769afc3a132e035.png" title="Valentina enters '1' into Enter the amount" width="1920"/>
+                <img src="faae292acbfc76749e5e7d978cf2c95c63e997e3333bc416b769afc3a132e035.png" title="Then Enter size should be an element that is enabled" width="1920"/>
+                <img src="59906c2c52945bf2757be9c9a864a43f6829ed03932125c128c5565875d41c13.png" title="Then Enter size should be an element that is enabled" width="1920"/>
+                <img src="59906c2c52945bf2757be9c9a864a43f6829ed03932125c128c5565875d41c13.png" title="Valentina clicks on Enter size" width="1920"/>
+                <img src="efd4db9cac903fe2bbf79ecc6e740ea6b046f041bca489006ccaa1e9a7117c28.png" title="Valentina clicks on Enter size" width="1920"/>
+                <img src="21c9e1f2d0b70b59d7329b0427eeac99aaa49889be76dc9b383062b061abc34f.png" title="Valentina clicks on Add to cart" width="1920"/>
+                <img src="862901b036c81f396a5a134c55ff3432a06f3069ba21b04f6166992f11e6ffba.png" title="Valentina clicks on Go to cart" width="1920"/>
+                <img src="2ac9fa91015d50945adc97661a186bcd1f702cd859d6bf014c657b68d7e1716b.png" title="Valentina clicks on Go to cart" width="1920"/>
+                <img src="2ac9fa91015d50945adc97661a186bcd1f702cd859d6bf014c657b68d7e1716b.png" title="Then Validate the total price of the product" width="1920"/>
+                <img src="2ac9fa91015d50945adc97661a186bcd1f702cd859d6bf014c657b68d7e1716b.png" title="Then validate price more cheaper should be 'BOLSA DE COMPRAS'" width="1920"/>
+                <img src="0c06bf03af38b36e4882b27f88d8d96c87de9cbed39535e05e17cf520817f2dd.png" title="Example #2: {categories=Mujer, quantity=1, size=24}" width="1920"/>
+                <img src="bbe5b4ec99682605cc66da1bf2ba42923bbe24d620eb9908196bedecd714b95a.png" title="Given As a user I will enter one of the Mujer that appear on the page" width="1920"/>
+                <img src="216b5264c3a304f2f4485de04f0119200a23b33a2e74f82f6c1c932219aac4dc.png" title="Valentina clicks on Click in the categories" width="1920"/>
+                <img src="46cfb548711e3c082ea268a39f0a42ae77498f5eccc798d5b8716f4ca42bf327.png" title="Valentina clicks on Click in the categories" width="1920"/>
+                <img src="bbe5b4ec99682605cc66da1bf2ba42923bbe24d620eb9908196bedecd714b95a.png" title="When And I will select the cheapest clothes by selecting the 1 and 24" width="1920"/>
+                <img src="0c06bf03af38b36e4882b27f88d8d96c87de9cbed39535e05e17cf520817f2dd.png" title="When And I will select the cheapest clothes by selecting the 1 and 24" width="1920"/>
+                <img src="aa4e3df3dbd83bccc107da12edb755dd3c23cc2660c88cd88111f399bf2d1940.png" title="Valentina clicks on #target" width="1920"/>
+                <img src="62564c7a3446f4ad3e5924d03ec676da30fe08df9f469ab4b66c73921da30a34.png" title="Valentina clicks on #target" width="1920"/>
+                <img src="62564c7a3446f4ad3e5924d03ec676da30fe08df9f469ab4b66c73921da30a34.png" title="Valentina enters '1' into Enter the amount" width="1920"/>
+                <img src="bdb60cc7d8c53a6bef0fba774511afe4d5dc67fa49e5ce62721cd9cda6a2aa1b.png" title="Valentina enters '1' into Enter the amount" width="1920"/>
+                <img src="62564c7a3446f4ad3e5924d03ec676da30fe08df9f469ab4b66c73921da30a34.png" title="Then Enter size should be an element that is enabled" width="1920"/>
+                <img src="bdb60cc7d8c53a6bef0fba774511afe4d5dc67fa49e5ce62721cd9cda6a2aa1b.png" title="Then Enter size should be an element that is enabled" width="1920"/>
+                <img src="96fec94138e33712e3020303e4bcaf18d7f9476e3b29c097e9c4d0f0cdcbd8b6.png" title="Valentina clicks on Enter size" width="1920"/>
+                <img src="2057df8a58e1642eb0aa5fd9234f5634bae77a78e9039720b59fe7373513d8ad.png" title="Valentina clicks on Enter size" width="1920"/>
+                <img src="2057df8a58e1642eb0aa5fd9234f5634bae77a78e9039720b59fe7373513d8ad.png" title="Valentina clicks on Add to cart" width="1920"/>
+                <img src="ccc31ef5df006e0f406cd47f7d5c3c9bb5ab24978e8e472755ca4bd6eb80ce0d.png" title="Valentina clicks on Go to cart" width="1920"/>
+                <img src="0c06bf03af38b36e4882b27f88d8d96c87de9cbed39535e05e17cf520817f2dd.png" title="Valentina clicks on Go to cart" width="1920"/>
+                <img src="0c06bf03af38b36e4882b27f88d8d96c87de9cbed39535e05e17cf520817f2dd.png" title="Then Validate the total price of the product" width="1920"/>
+                <img src="0c06bf03af38b36e4882b27f88d8d96c87de9cbed39535e05e17cf520817f2dd.png" title="Then validate price more cheaper should be 'BOLSA DE COMPRAS': <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.11</span>
+</div>
+</body>
+</html>

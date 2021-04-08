@@ -1,0 +1,13 @@
+Feature: As a user I want to go to the Mattelsa page
+  and add a product in the cart.
+
+  Scenario Outline: As user I'm going to go to the Mattelsa page
+    Given As a user I will enter one of the <categories> that appear on the page
+    When  And I will select the cheapest clothes by selecting the <quantity> and <size>
+    Then  Validate the total price of the product
+    Examples:
+      | categories | quantity | size |
+      | Hombre     | 1        | 26   |
+      | Mujer      | 1        | 24   |
+
+
